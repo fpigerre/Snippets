@@ -42,7 +42,7 @@ Aborts a broken branch merge
 #### Git merge message
 Like commit -m, but populates the merge commit
 
-```git merge -m "Message"
+```git merge -m "Message"```
 
 ### Maven
 
