@@ -126,4 +126,4 @@ The following is a collection of useful code and command line snippets that I us
 
 > Installs a new dependency for a project using NodeJS
 
-```npm install <dependency name>
+```npm install <dependency name>```
