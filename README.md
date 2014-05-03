@@ -127,3 +127,29 @@ The following is a collection of useful code and command line snippets that I us
 > Installs a new dependency for a project using NodeJS
 
 ```npm install <dependency name>```
+
+### [MongoDB](http://www.mongodb.org/)
+
+* Show Databases
+
+> Displays a list of databases
+
+```show dbs```
+
+* Use a Database
+
+> Sets the Active Database
+
+```use <database name>```
+
+* Insert a Document
+
+> Inserts a document into a collection. In this case, everything between the curly brackets ```{}``` is a new document
+
+```db.<collection name>.insert({name: 'psgs', age: 32, languages: ['java', 'javascript', 'ruby']});
+
+* List Data from a Collection
+
+> Lists data contained in a certain collection. The data shown can be filtered using the find() parameter
+
+```db.<collection name>.find()```
