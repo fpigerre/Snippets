@@ -146,7 +146,7 @@ The following is a collection of useful code and command line snippets that I us
 
 > Inserts a document into a collection. In this case, everything between the curly brackets ```{}``` is a new document
 
-```db.<collection name>.insert({name: 'psgs', age: 32, languages: ['java', 'javascript', 'ruby']});
+```db.<collection name>.insert({name: 'psgs', age: 32, languages: ['java', 'javascript', 'ruby']});```
 
 * List Data from a Collection
 
